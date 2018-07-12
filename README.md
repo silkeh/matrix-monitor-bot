@@ -7,21 +7,10 @@ A bot to measure latency between homeservers, as perceived by users.
 
 # Installing
 
-Assuming Go 1.9 is already installed on your PATH:
+Assuming Go 1.9 is already installed on your PATH (also possible with `vgo`):
 ```bash
 # Get it
-git clone https://github.com/turt2live/matrix-monitor-bot
-cd matrix-monitor-bot
-
-# Set up the build tools
-currentDir=$(pwd)
-export GOPATH="$currentDir/vendor/src:$currentDir/vendor:$currentDir:"$GOPATH
-go get github.com/constabulary/gb/...
-export PATH=$PATH":$currentDir/vendor/bin:$currentDir/vendor/src/bin"
-
-# Build it
-gb vendor restore
-gb build
+go get github.com/turt2live/matrix-monitor-bot/cmd/...
 
 # Configure it (edit monitor-bot.yaml to meet your needs)
 cp config.sample.yaml monitor-bot.yaml
