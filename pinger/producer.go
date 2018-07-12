@@ -2,7 +2,7 @@ package pinger
 
 import (
 	"time"
-	"github.com/turt2live/matrix-monitor-bot/matrix"
+	"github.com/silkeh/matrix-monitor-bot/matrix"
 	"math/rand"
 	"github.com/sirupsen/logrus"
 )

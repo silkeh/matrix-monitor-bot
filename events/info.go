@@ -1,7 +1,7 @@
 package events
 
 import (
-	"github.com/turt2live/matrix-monitor-bot/tracker"
+	"github.com/silkeh/matrix-monitor-bot/tracker"
 )
 
 type PingInfo struct {

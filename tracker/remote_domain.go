@@ -3,7 +3,7 @@ package tracker
 import (
 	"sync"
 	"github.com/patrickmn/go-cache"
-	"github.com/turt2live/matrix-monitor-bot/config"
+	"github.com/silkeh/matrix-monitor-bot/config"
 )
 
 type RemoteDomain struct {

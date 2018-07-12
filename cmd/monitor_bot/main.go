@@ -4,15 +4,15 @@ import (
 	"flag"
 
 	"github.com/sirupsen/logrus"
-	"github.com/turt2live/matrix-monitor-bot/config"
-	"github.com/turt2live/matrix-monitor-bot/logging"
-	"github.com/turt2live/matrix-monitor-bot/matrix"
+	"github.com/silkeh/matrix-monitor-bot/config"
+	"github.com/silkeh/matrix-monitor-bot/logging"
+	"github.com/silkeh/matrix-monitor-bot/matrix"
 	"math/rand"
 	"time"
-	"github.com/turt2live/matrix-monitor-bot/pinger"
+	"github.com/silkeh/matrix-monitor-bot/pinger"
 	"net/http"
-	"github.com/turt2live/matrix-monitor-bot/metrics"
-	"github.com/turt2live/matrix-monitor-bot/webserver"
+	"github.com/silkeh/matrix-monitor-bot/metrics"
+	"github.com/silkeh/matrix-monitor-bot/webserver"
 	"fmt"
 )
 

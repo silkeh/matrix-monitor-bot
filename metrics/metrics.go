@@ -3,7 +3,7 @@ package metrics
 import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/sirupsen/logrus"
-	"github.com/turt2live/matrix-monitor-bot/config"
+	"github.com/silkeh/matrix-monitor-bot/config"
 	"time"
 )
 

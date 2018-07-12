@@ -4,9 +4,9 @@ import (
 	"github.com/matrix-org/gomatrix"
 	"github.com/sirupsen/logrus"
 	"encoding/json"
-	"github.com/turt2live/matrix-monitor-bot/util"
-	"github.com/turt2live/matrix-monitor-bot/events"
-	"github.com/turt2live/matrix-monitor-bot/tracker"
+	"github.com/silkeh/matrix-monitor-bot/util"
+	"github.com/silkeh/matrix-monitor-bot/events"
+	"github.com/silkeh/matrix-monitor-bot/tracker"
 )
 
 func (c *Client) handlePing(log *logrus.Entry, ev *gomatrix.Event) {

@@ -1,13 +1,13 @@
 package matrix
 
 import (
-	"github.com/turt2live/matrix-monitor-bot/util"
+	"github.com/silkeh/matrix-monitor-bot/util"
 	"github.com/hashicorp/go-multierror"
 	"github.com/sirupsen/logrus"
 	"encoding/json"
-	"github.com/turt2live/matrix-monitor-bot/events"
-	"github.com/turt2live/matrix-monitor-bot/tracker"
-	"github.com/turt2live/matrix-monitor-bot/metrics"
+	"github.com/silkeh/matrix-monitor-bot/events"
+	"github.com/silkeh/matrix-monitor-bot/tracker"
+	"github.com/silkeh/matrix-monitor-bot/metrics"
 	"time"
 )
 

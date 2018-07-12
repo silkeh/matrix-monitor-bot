@@ -3,7 +3,7 @@ package matrix
 import (
 	"github.com/matrix-org/gomatrix"
 	"github.com/sirupsen/logrus"
-	"github.com/turt2live/matrix-monitor-bot/util"
+	"github.com/silkeh/matrix-monitor-bot/util"
 	"time"
 )
 

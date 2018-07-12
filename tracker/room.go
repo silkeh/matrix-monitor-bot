@@ -2,12 +2,12 @@ package tracker
 
 import (
 	"github.com/patrickmn/go-cache"
-	"github.com/turt2live/matrix-monitor-bot/config"
+	"github.com/silkeh/matrix-monitor-bot/config"
 	"time"
 	"github.com/pkg/errors"
 	"fmt"
 	"github.com/sirupsen/logrus"
-	"github.com/turt2live/matrix-monitor-bot/metrics"
+	"github.com/silkeh/matrix-monitor-bot/metrics"
 )
 
 type Room struct {

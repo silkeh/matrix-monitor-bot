@@ -1,7 +1,7 @@
 # matrix-monitor-bot
 
 [![#monitorbot:t2bot.io](https://img.shields.io/badge/matrix-%23monitorbot:t2bot.io-brightgreen.svg)](https://matrix.to/#/#monitorbot:t2bot.io)
-[![TravisCI badge](https://travis-ci.org/turt2live/matrix-monitor-bot.svg?branch=master)](https://travis-ci.org/turt2live/matrix-monitor-bot)
+[![TravisCI badge](https://travis-ci.org/silkeh/matrix-monitor-bot.svg?branch=master)](https://travis-ci.org/turt2live/matrix-monitor-bot)
 
 A bot to measure latency between homeservers, as perceived by users.
 
@@ -10,7 +10,7 @@ A bot to measure latency between homeservers, as perceived by users.
 Assuming Go 1.9 is already installed on your PATH (also possible with `vgo`):
 ```bash
 # Get it
-go get github.com/turt2live/matrix-monitor-bot/cmd/...
+go get github.com/silkeh/matrix-monitor-bot/cmd/...
 
 # Configure it (edit monitor-bot.yaml to meet your needs)
 cp config.sample.yaml monitor-bot.yaml
@@ -23,7 +23,7 @@ bin/monitor_bot
 
 The steps are almost the same as above. The only difference is that `gb build` will not work, so instead use the following lines:
 ```bash
-go build -o bin/monitor_bot ./src/github.com/turt2live/matrix-monitor-bot/cmd/monitor_bot/
+go build -o bin/monitor_bot ./src/github.com/silkeh/matrix-monitor-bot/cmd/monitor_bot/
 ```
 
 # Docker
@@ -35,13 +35,13 @@ named `logs` will also be created here (assuming you use the default configurati
 
 **From Docker Hub:**
 ```
-docker run -p 8080:8080 -v /path/to/matrix-monitor-bot:/data turt2live/matrix-monitor-bot
+docker run -p 8080:8080 -v /path/to/matrix-monitor-bot:/data silkeh/matrix-monitor-bot
 ```
 
 
 **Build the image yourself:**
 ```
-git clone https://github.com/turt2live/matrix-monitor-bot
+git clone https://github.com/silkeh/matrix-monitor-bot
 cd matrix-monitor-bot
 docker build -t matrix-monitor-bot .
 docker run -p 8080:8080 -v /path/to/matrix-monitor-bot:/data matrix-monitor-bot
